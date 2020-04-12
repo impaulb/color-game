@@ -1,0 +1,121 @@
+body{
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+}
+
+#difficulty{
+    font-weight: 600;
+}
+
+.diffBtn{
+    float: right;
+
+}
+
+.resetBtn{
+    float: left;
+    font-weight: 600;
+}
+
+.btn{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    background: #0861b5;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.diffBtn,.resetBtn:hover{
+    cursor: pointer;
+}
+
+.diffBtn,.resetBtn:focus{
+    outline: none;
+}
+
+.longRibbon{
+    width: 100%;
+    margin-top: -20px;
+    background: #67b2f9;
+}
+
+.top{
+    width: 100%;
+    background: #9fc7ff;
+    padding: 8px 0px 8px 0px;
+}
+
+.ribbon{
+    width: 650px;
+    margin: auto;
+    height: 40px;
+}
+
+#target{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.colorBox{
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+}
+
+.wrapper{
+    width: 540px;
+    margin: auto;
+}
+
+.center{
+    margin: auto;
+    display: block;
+}
+
+h1{
+    font-weight: 300;
+}
+
+h3{
+    line-height: 40px;
+    position: absolute;
+    margin: auto;
+    left: calc(50% - 35px);
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.white{
+    color: white;
+}
+
+.vertical-middle{
+    vertical-align: middle;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+    .ribbon{
+        width: 500px;
+    }
+    .colorBox{
+        width: 120px;
+        height: 120px;
+    }
+    .wrapper{
+        width: 500px;
+        padding: 0 5%;
+    }
+  }

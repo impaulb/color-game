@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="top">
+        <h1 class="text-center white">The Great<br><span id="target"></span><br>Color Game</h1>
+    </div>
+
+    <div class="longRibbon">
+        <div class="ribbon">
+            <button class="btn white resetBtn" id="reset">New Colors</button>
+            <h3 class="text-center verticle-middle"><span class="tooltip white"> </span></h3>
+            <button class="btn white diffBtn" id="diff">Difficulty: <span id="difficulty">Hard</span></button>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
